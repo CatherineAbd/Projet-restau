@@ -53,7 +53,13 @@ p
 .SectionBannerIcon{
     background-color:#006188;
 }
-
+.SectionBannerPresentation{
+    color: #006188;
+    background-color: #E7DCB6 ;
+}
+.SectionBannerPresentation h5, h6{
+    color: #4d4d4d
+}
 
 /*******************************   STYLE HORAIRE  *************************************/
 
