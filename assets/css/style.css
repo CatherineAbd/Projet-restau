@@ -66,8 +66,8 @@ h7
 .SectionNavbar a{
     color: white;
 }
-.SectionNavbar a:hover{
-    color: #E7DCB6;
+.nav-item a{
+  color: white !important;
 }
 
 /********************************   STYLE BANNER  *************************************/
