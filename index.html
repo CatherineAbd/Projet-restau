@@ -1,121 +1,252 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Voile Bleue</title>
+        <link rel="shortcut icon" href="assets/image/170.ico">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Voile Bleue</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/07d23712a0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+        <!-----   LINK CSS LOCAL  ----->
 
-<body class="container-fluid wh-100 m-0">
-    <!--barre de navigation-->
-    <div class="container">
-        <nav>
-        </nav>
-    </div>
-    <!--banner-->
-    <section class="container">
+        <link href="assets/css/style.css" rel="stylesheet">
 
-    </section>
-    <!--Horaires-->
-    <section class="container">
+        <!-----   CDN BOOTSTRAP   ----->
 
-    </section>
-    <!--Carte du jour-->
-    <section class="container">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <!-----   CDN FONTAWESOME   ----->
 
-    </section>
+        <script src="https://kit.fontawesome.com/07d23712a0.js" crossorigin="anonymous"></script>
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
 
-    <!--information-->
-    <section class="container-fluid sectionInfo">
-        <!-- Bloc informations -->
+    <body class="container-fluid wh-100 m-0 p-0">
+        <!--barre de navigation-->
+        <div class="container">
+            <nav>
+            </nav>
+        </div>
 
-        <div id="infoBox">
-            <div class="row justify-content-center d-flex align-items-center">
-                <div class="col sectionInfoBorderRight fw-bold">
-                    <figure class="figure">
-                        <a href="https://www.google.com/maps/place/La+Voile+Bleue/@49.4918603,0.0973407,15z/data=!4m2!3m1!1s0x0:0x93a26cfe35da2391?sa=X&ved=2ahUKEwibw5S-ipbuAhUFxoUKHdeHDisQ_BIwDHoECBcQBQ"
-                            target="_blank"><img id="plan" class="figure-img img-fluid rounded" alt="plan"
-                                src="assets/image/plan.png"></a>
-                        <figcaption class="figure-caption sectionInfoCap d-sm-inline d-sm-none ">Cliquez l'image
-                        </figcaption>
-                        <figcaption class="figure-caption sectionInfoCap d-none d-sm-inline"> Cliquez l'image pour accéder à google maps<br>
-                        </figcaption>
-                        <p class="address d-none d-sm-inline">58 Rue des Sauveteurs Numero de la Suite, Intersection, Place, 76600, Le
-                            Havre France</p>
-                    </figure>
+
+        <!--banner-->
+        <section class="container">
+            <div id="carouselVoile" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/exterieur-et-terrasse.jpg" class="d-block w-100 CarouselimgSize" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/horaireVB.jpg" class="d-block w-100 CarouselimgSize" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/logoVB.jpg" class="d-block w-100 CarouselimgSize" alt="">
+                    </div>
                 </div>
+                <a class="carousel-control-prev" role="button" href="#carouselVoile" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Précédent</span>
+                </a>
+                <a class="carousel-control-next" role="button" href="#carouselVoile" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Suivant</span>
+                </a>
+            </div>
+        </section>
 
-                <div id="informations" class="col fw-bold">
-                
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fas fa-mobile-alt"></i> 06 83 80 07 90</li>
-                        <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fas fa-mobile-alt"></i> <a href="tel:+33683800790" class="sectionInfoLink">Appel</a></li>
-                        <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-facebook-square"></i><a
-                                href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
-                                class="sectionInfoLink" target="_blank"> Notre
-                                page facebook</a></li>
-                                <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-facebook-square"></i><a
+
+        <!--Horaires-->
+        <section class="container-fluid SectionSchedule mt-5 mb-5">
+            <div class="text-center text-white">
+                <p class="h1">HORAIRES</p>
+            </div>
+                <table class="table table.bordered table-hover SectionScheduleTable w-50 text-center mx-auto">
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Ouverture</th>
+                                <th>Fermeture</th>
+                            </tr>
+                        </thead>
+                        <tr>
+                            <th class="text-start">Mardi</th>
+                            <td>14h</td>
+                            <td>22h</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start">Mercredi</th>
+                            <td>10h</td>
+                            <td>22h</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start">Jeudi</th>
+                            <td>10h</td>
+                            <td>22h</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start">Vendredi</th>
+                            <td>10h</td>
+                            <td>22h</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start">Samedi</th>
+                            <td>10h</td>
+                            <td>22h</td>
+                        </tr>
+                        <tr>
+                            <th class="text-start">Dimanche</th>
+                            <td>10h</td>
+                            <td>16h</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <!--Carte du jour-->
+        <section class="container">
+
+        </section>
+        
+        <!--information-->
+        <section class="container-fluid sectionInfo">
+            <!-- Bloc informations -->
+    
+            <div id="infoBox">
+                <div class="row justify-content-center d-flex align-items-center">
+                    <div class="col sectionInfoBorderRight fw-bold">
+                        <figure class="figure">
+                            <a href="https://www.google.com/maps/place/La+Voile+Bleue/@49.4918603,0.0973407,15z/data=!4m2!3m1!1s0x0:0x93a26cfe35da2391?sa=X&ved=2ahUKEwibw5S-ipbuAhUFxoUKHdeHDisQ_BIwDHoECBcQBQ"
+                                target="_blank"><img id="plan" class="figure-img img-fluid rounded" alt="plan"
+                                    src="assets/image/plan.png"></a>
+                            <figcaption class="figure-caption sectionInfoCap d-sm-inline d-sm-none ">Cliquez l'image
+                            </figcaption>
+                            <figcaption class="figure-caption sectionInfoCap d-none d-sm-inline"> Cliquez l'image pour accéder à google maps<br>
+                            </figcaption>
+                            <p class="address d-none d-sm-inline">58 Rue des Sauveteurs Numero de la Suite, Intersection, Place, 76600, Le
+                                Havre France</p>
+                        </figure>
+                    </div>
+    
+                    <div id="informations" class="col fw-bold">
+                    
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fas fa-mobile-alt"></i> 06 83 80 07 90</li>
+                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fas fa-mobile-alt"></i> <a href="tel:+33683800790" class="sectionInfoLink">Appel</a></li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-facebook-square"></i><a
                                     href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
-                                    class="sectionInfoLink" target="_blank"> Facebook</a></li>
-                            
-                        <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-tripadvisor"></i><a
-                                href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
-                                class="sectionInfoLink" target="_blank"> Notre
-                                page tripadvisor</a></li>
-                                <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-tripadvisor"></i><a
+                                    class="sectionInfoLink" target="_blank"> Notre
+                                    page facebook</a></li>
+                                    <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-facebook-square"></i><a
+                                        href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
+                                        class="sectionInfoLink" target="_blank"> Facebook</a></li>
+                                
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-tripadvisor"></i><a
                                     href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
-                                    class="sectionInfoLink" target="_blank"> Avis</a></li>
-                        <li class="list-group-item sectionInfoList d-none d-sm-inline">Pour toute demande veuillez nous contacter via le
-                            formulaire de contact en appuyant sur le bouton demande d'informations.</li>
-                    </ul>
-                </div>
-            <div class="row" id="contactButton">
-                <div class="col">
-                    <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showForm()">Demande d'informations</button>
+                                    class="sectionInfoLink" target="_blank"> Notre
+                                    page tripadvisor</a></li>
+                                    <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-tripadvisor"></i><a
+                                        href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
+                                        class="sectionInfoLink" target="_blank"> Avis</a></li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline">Pour toute demande veuillez nous contacter via le
+                                formulaire de contact en appuyant sur le bouton demande d'informations.</li>
+                        </ul>
+                    </div>
+                <div class="row" id="contactButton">
+                    <div class="col">
+                        <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showForm()">Demande d'informations</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <!-- Formulaire d'informations -->
-        <form name="reservationForm" class ="sectionInfoForm" id="formula">
-            <div class="container">
-                <h1>Demande d'informations</h1>
-                <p>Veuillez entrer vos informations.</p>
-                <hr class="sectionInfoLine">
-
-                <label for="mail"><b>Adresse mail :</b></label>
-                <input class="sectionInfoInput" type="text" placeholder="exemple@gmail.com" name="mail" id="mail" required>
-                <span style="color: darkred;" id="errorMail"></span>
-                <label for="psw"><b>Numéro de téléphone :</b></label>
-                <input class="sectionInfoInput" type="text" placeholder="EX: 0634768970" name="tel" id="tel" required>
-                <span style="color: darkred;" id="errorTel"></span>
-                <label for="psw-repeat"><b>Message :</b></label><br>
-                <textarea class="sectionInfoMessageBox" placeholder="Entrez votre message" name="msg" id="msg" required></textarea>
-                <span style="color: darkred;" id="errorMessage"></span>
-                <hr>
-
-                <input type="checkbox" ID="acceptNewsletter">Cochez ceci pour vous abonner à notre
-                newsletter.<br></input>
-                <button type="button" class="sectionInfoBtn justify-content-center btn btn-outline-primary"
-                    onclick="checkEmail();checkTel();emptyMessage()">Demande d'informations</button>
             </div>
-            <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showInfo()" ;>Retour</button>
-        </form>
-    </section>
+            <!-- Formulaire d'informations -->
+            <form name="reservationForm" class ="sectionInfoForm" id="formula">
+                <div class="container">
+                    <h1>Demande d'informations</h1>
+                    <p>Veuillez entrer vos informations.</p>
+                    <hr class="sectionInfoLine">
+    
+                    <label for="mail"><b>Adresse mail :</b></label>
+                    <input class="sectionInfoInput" type="text" placeholder="exemple@gmail.com" name="mail" id="mail" required>
+                    <span style="color: darkred;" id="errorMail"></span>
+                    <label for="psw"><b>Numéro de téléphone :</b></label>
+                    <input class="sectionInfoInput" type="text" placeholder="EX: 0634768970" name="tel" id="tel" required>
+                    <span style="color: darkred;" id="errorTel"></span>
+                    <label for="psw-repeat"><b>Message :</b></label><br>
+                    <textarea class="sectionInfoMessageBox" placeholder="Entrez votre message" name="msg" id="msg" required></textarea>
+                    <span style="color: darkred;" id="errorMessage"></span>
+                    <hr>
+    
+                    <input type="checkbox" ID="acceptNewsletter">Cochez ceci pour vous abonner à notre
+                    newsletter.<br></input>
+                    <button type="button" class="sectionInfoBtn justify-content-center btn btn-outline-primary"
+                        onclick="checkEmail();checkTel();emptyMessage()">Demande d'informations</button>
+                </div>
+                <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showInfo()" ;>Retour</button>
+            </form>
+        </section>
 
-    <!--footer-->
-    <section class="container">
 
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
-</body>
 
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------   FOOTER   -------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+        <footer class="SectionFooter container-fluid px-5 py-2">
+            <!-- SOCIAL MEDIA PART -->
+            <div class="row py-3">
+                <div class="SectionFooterSocial  d-flex justify-content-center">
+                    <a href="https://www.facebook.com/La-Voile-Bleue-597392320275229/" target="_blank"><i class="fa fa-facebook fa-lg"></i></a>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=49.491937431709%2C0.097336298528922&fbclid=IwAR0oq8xr74ke5Si9kbU1vEtO3yQqBoXgdXtbPIg6exDdygCpPhc3IT90-VM" target="_blank"><i class="fa fa-map-marker-alt fa-lg"></i></a>
+                    <a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" target="_blank"><i class="fa fa-tripadvisor fa-lg"></i></a>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row text-center p-5">
+                <div class="col-md-3 p-2">
+                    <a class="SectionFooterLink" href="#">Condition générale d'utilisation</a>
+                </div>
+                <div class="col-md-3 p-2">
+                    <a class="SectionFooterLink" href="#">Mention légale</a>
+                </div>
+                <div class="col-md-3 p-2">
+                    <a class="SectionFooterLink" href="#">Contact</a>
+                </div>
+                <div class="col-md-3 p-2">
+                    <a class="SectionFooterLink" href="#">Condition d'utilisation</a>
+                </div>
+            </div>
+
+            <div class="row text-center py-2">
+                <div class="col-md-12">
+                    <p class="SectionFooterCredit">© 2021 par le groupe Cat Cat. Réalisé en HTLM5/CSS3 & bootstrap</p>
+                </div> 
+            </div>
+
+        </footer>
+
+
+
+
+
+
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+<!---------------------------------------------------   BUNDLE BOOTSTRAP V5.0   -------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+                crossorigin="anonymous">
+        </script>
+        <script src="assets/js/main.js"></script>
+    
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
+    
+    </body>
 </html>

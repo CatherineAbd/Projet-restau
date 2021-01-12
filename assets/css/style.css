@@ -1,4 +1,68 @@
 
+.CarouselimgSize{
+    height: 400px;
+}
+/**************************************************************************************/
+/***************************   FEUILLE DE STYLE V0.1   ********************************/
+/**************************************************************************************/
+
+/***************************   IMPORTATION DES FONTS  *********************************/
+
+/* attendre le 12/01/2021 avant ajout de fonts */
+
+
+
+
+/*******************************   STYLE GLOBAL  **************************************/
+
+a
+{
+    
+}
+
+ul
+{
+
+}
+
+li
+{
+
+}
+
+p
+{
+
+}
+
+/**************************************************************************************/
+/*****************************   STYLE PAR SECTION  ***********************************/
+/**************************************************************************************/
+/*********************************   STYLE NAV  ***************************************/
+
+
+
+/********************************   STYLE BANNER  *************************************/
+
+
+
+/*******************************   STYLE HORAIRE  *************************************/
+
+.SectionSchedule{
+    background-color: #007DAE;
+}
+
+.SectionScheduleTable{
+    color: #E7DDB6;
+}
+
+
+/****************************   STYLE CARTE DU JOUR  **********************************/
+
+
+
+/*****************************   STYLE INFORMATION  ***********************************/
+
 /* Full-width input fields */
 .sectionInfoInput {
   width: 100%;
@@ -57,7 +121,6 @@
 }
 
 
-/* Hiding the form by default */
 .sectionInfoForm {
  
   display:none;
@@ -97,3 +160,54 @@
   text-decoration: none;
   color:#E7DCB6;
 }
+
+/********************************   STYLE FOOTER  *************************************/
+
+.SectionFooter
+{
+    background-color: #4D4D4D !important;
+}
+
+.SectionFooterSocial a{
+    text-align: center;
+	float: left;
+	width: 36px;
+	height: 36px;
+	border: 1px solid white;
+    border-radius: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
+} 
+
+.SectionFooterSocial a i{
+	font-size: 20px;
+    line-height: 38px;
+	color: white;
+}
+
+.SectionFooterSocial a:hover
+{
+    transition: 0.3s;
+    border: 1px solid #222;
+}
+
+.SectionFooterLink
+{
+    color: white;
+    text-decoration: none;
+    outline: 2px solid white;
+    outline-offset: 10px;
+}
+
+.SectionFooterLink:hover
+{
+    transition: 0.2s;
+    outline: 2px solid #0090C8;
+    color: #0090C8;
+}
+
+.SectionFooterCredit
+{
+    color: white;
+}
+
