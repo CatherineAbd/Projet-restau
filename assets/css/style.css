@@ -100,17 +100,17 @@ h7
 
 .SectionScheduleH2
 {
-    color: white;
+    color: black;
 }
 
 .SectionSchedule{
-    background-color: #007DAE;
+    background-color: white;
 }
 
-.SectionScheduleTable{
-    color: #E7DDB6 !important;
+.SectionScheduleTab
+{
+    
 }
-
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
 
