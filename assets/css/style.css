@@ -48,9 +48,8 @@ p
 }
 */
 #carouselVoile {
-  width: 50%;
-  margin: 0 auto;
-  
+	padding: 0px;
+  width: 100%;  
 }
 
 .carousel-item img {
