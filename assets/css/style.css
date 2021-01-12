@@ -68,48 +68,32 @@ p
 
 .SectionFooter
 {
-    background-color: #4D4D4D !important;
+    background-color: #1C2431 !important;
 }
 
-.SectionFooterSocial a{
-    text-align: center;
-	float: left;
-	width: 36px;
-	height: 36px;
-	border: 1px solid white;
-    border-radius: 100%;
-    margin-right: 5px;
-    margin-left: 5px;
-} 
-
-.SectionFooterSocial a i{
-	font-size: 20px;
-    line-height: 38px;
-	color: white;
-}
-
-.SectionFooterSocial a:hover
+.SectionFooterH5
 {
-    transition: 0.3s;
-    border: 1px solid #222;
+    text-transform: uppercase;
+    color : #D2CBA6;
 }
 
-.SectionFooterLink
+.SectionFooterCol ul li a
 {
-    color: white;
-    text-decoration: none;
-    outline: 2px solid white;
-    outline-offset: 10px;
+    color: white !important;
 }
 
-.SectionFooterLink:hover
+.SectionFooterSocialPart
 {
-    transition: 0.2s;
-    outline: 2px solid #0090C8;
-    color: #0090C8;
+    background-color: #D2CBA6;
 }
 
 .SectionFooterCredit
 {
+    background-color: #151B27;
+}
+
+.SectionFooterP
+{
+    display: inline;
     color: white;
 }
