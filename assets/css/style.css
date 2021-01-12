@@ -39,11 +39,20 @@ p
 /*****************************   STYLE PAR SECTION  ***********************************/
 /**************************************************************************************/
 /*********************************   STYLE NAV  ***************************************/
-
-
+.SectionNavbar{
+    background-color: #006188;
+}
+.SectionNavbar a{
+    color: white;
+}
+.SectionNavbar a:hover{
+    color: #E7DCB6;
+}
 
 /********************************   STYLE BANNER  *************************************/
-
+.SectionBannerIcon{
+    background-color:#006188;
+}
 
 
 /*******************************   STYLE HORAIRE  *************************************/
@@ -53,7 +62,7 @@ p
 }
 
 .SectionScheduleTable{
-    color: #E7DDB6;
+    color: #E7DDB6 !important;
 }
 
 
