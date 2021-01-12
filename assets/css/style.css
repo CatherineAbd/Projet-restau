@@ -69,14 +69,6 @@ p
 
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
-.SectionMenu
-{
-	background: url('../image/cover.jpg');
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
 .SectionMenuH1
 {
@@ -115,6 +107,13 @@ p
 {
 	background-color: #0090C8;
 	display: none;
+}
+
+.SectionInfoBTN
+{
+    border: 3px solid #007C88;
+    background: white;
+    color: red;
 }
 
 .SectionInformationMap {
@@ -215,5 +214,14 @@ p
 .SectionFooterP
 {
     display: inline;
+}
+/********************************   STYLE PARALLAX  *************************************/
+.parallax
+{
+	background: url('../image/parallax.png');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
 }
 

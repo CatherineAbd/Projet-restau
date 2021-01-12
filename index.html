@@ -62,8 +62,8 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
 <!-------------------------------------------------------------   BANNER   ------------------------------------------------------------------->
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
-
-        <div class="container-fluid m-0 p-0">
+    <section>
+        <div class="container-fluid m-0 p-0 ">
             <div id="carouselVoile" class="carousel slide " data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselVoile" data-bs-slide-to ="0" class="active"></li>
@@ -170,7 +170,7 @@
 
 
 
-        <section class="container-fluid SectionMenu py-5" id="SectionMenu">
+        <section class="container-fluid parallax py-5" id="SectionMenu">
 
             <div class="SectionMenuHead text-center pb-5">
                 <h1 class="SectionMenuH1 h1 text-primary">MENU</h1>
@@ -292,12 +292,15 @@
                               </div>
                               <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">a</textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                               </div>
                         </div>
                     </div>
-                    <div class="row py-3">
-                        <button class="btn btn-outline-secondary" onclick="showInfo();">Voir Information</button>
+                    <div class="row mx-auto py-3">
+                        <div class="col-md-2">
+                            <button class="SectionInfoBTN btn" onclick="showInfo();">Voir Information</button>
+                        </div>
+                        
                     </div>
                 </div>
 
