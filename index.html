@@ -269,7 +269,7 @@
             <div class="row SectionMenu justify-content-center mb-5">
 
                 <div class="col text-center">
-                    
+
                     <img src="assets/image/Huîtres.jpg" alt="Assiette d'huîtres" class="SectionMenuImg">
                 </div>
 
@@ -325,92 +325,33 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
 
         <section class="container-fluid sectionInfo" id="SectionContact">
-            <!-- Bloc informations -->
-
-            <div id="infoBox">
-                <div class="row justify-content-center d-flex align-items-center">
-                    <div class="col sectionInfoBorderRight fw-bold">
-                        <figure class="figure">
-                            <a href="https://www.google.com/maps/place/La+Voile+Bleue/@49.4918603,0.0973407,15z/data=!4m2!3m1!1s0x0:0x93a26cfe35da2391?sa=X&ved=2ahUKEwibw5S-ipbuAhUFxoUKHdeHDisQ_BIwDHoECBcQBQ"
-                                target="_blank"><img id="plan" class="figure-img img-fluid rounded" alt="plan"
-                                    src="assets/image/plan.png"></a>
-                            <figcaption class="figure-caption sectionInfoCap d-sm-inline d-sm-none ">Cliquez l'image
-                            </figcaption>
-                            <figcaption class="figure-caption sectionInfoCap d-none d-sm-inline"> Cliquez l'image pour
-                                accéder à google maps<br>
-                            </figcaption>
-                            <p class="address d-none d-sm-inline">58 Rue des Sauveteurs Numero de la Suite,
-                                Intersection, Place, 76600, Le
-                                Havre France</p>
-                        </figure>
+            <div class="row">
+                <div class="SectionInfoLeft col-md-6">
+                    <div class="row pt-4">
+                        <div class="col-md-12 text-center">
+                            <h1 class="h1 text-light">EMPLACEMENT</h1>
+                        </div>
                     </div>
-
-                    <div id="informations" class="col fw-bold">
-
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
-                                    class="fas fa-mobile-alt"></i> 06 83 80 07 90</li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
-                                    class="fas fa-mobile-alt"></i> <a href="tel:+33683800790"
-                                    class="sectionInfoLink">Appel</a></li>
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
-                                    class="fab fa-facebook-square"></i><a
-                                    href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
-                                    class="sectionInfoLink" target="_blank"> Notre page facebook</a></li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
-                                    class="fab fa-facebook-square"></i><a
-                                    href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
-                                    class="sectionInfoLink" target="_blank"> Facebook</a></li>
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
-                                    class="fab fa-tripadvisor"></i><a
-                                    href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
-                                    class="sectionInfoLink" target="_blank"> Notre page tripadvisor</a></li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
-                                    class="fab fa-tripadvisor"></i><a
-                                    href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
-                                    class="sectionInfoLink" target="_blank"> Avis</a></li>
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline">Pour toute demande veuillez
-                                nous contacter via le formulaire de contact en appuyant sur le bouton demande
-                                d'informations.</li>
-                        </ul>
+                    <div class="row p-5">
+                        <div class="SectionInformationMap col-md-12">
+                            <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/maps/37"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://google-map-generator.com"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+                            <iframe src="https://maps.google.com/maps?q=58%20Rue%20des%20Sauveteurs,%2076600%20Le%20Havre&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+                        </div>
                     </div>
-                    <div class="row" id="contactButton">
-                        <div class="col">
-                            <button type="button" class="sectionInfoBtn btn btn-outline-primary"
-                                onclick="showForm()">Demande d'informations</button>
+                </div>
+                <div class="SectionInfoRight col-md-6">
+                    <div class="row pt-4">
+                        <div class="col-md-12 text-center">
+                            <h1 class="h1 text-light">INFORMATION</h1>
+                        </div>
+                    </div>
+                    <div class="row p-5">
+                        <div id="informations" class="col-md-12  text-center fw-bold">
+                            <p>telephone</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Formulaire d'informations -->
-            <form name="reservationForm" class="sectionInfoForm" id="formula">
-                <div class="container">
-                    <h1>Demande d'informations</h1>
-                    <p>Veuillez entrer vos informations.</p>
-                    <hr class="sectionInfoLine">
-
-                    <label for="mail"><b>Adresse mail :</b></label>
-                    <input class="sectionInfoInput" type="text" placeholder="exemple@gmail.com" name="mail" id="mail"
-                        required>
-                    <span style="color: darkred;" id="errorMail"></span>
-                    <label for="psw"><b>Numéro de téléphone :</b></label>
-                    <input class="sectionInfoInput" type="text" placeholder="EX: 0634768970" name="tel" id="tel"
-                        required>
-                    <span style="color: darkred;" id="errorTel"></span>
-                    <label for="psw-repeat"><b>Message :</b></label><br>
-                    <textarea class="sectionInfoMessageBox" placeholder="Entrez votre message" name="msg" id="msg"
-                        required></textarea>
-                    <span style="color: darkred;" id="errorMessage"></span>
-                    <hr>
-
-                    <input type="checkbox" ID="acceptNewsletter">Cochez ceci pour vous abonner à notre
-                    newsletter.<br></input>
-                    <button type="button" class="sectionInfoBtn justify-content-center btn btn-outline-primary"
-                        onclick="checkEmail();checkTel();emptyMessage()">Demande d'informations</button>
-                </div>
-                <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showInfo()"
-                    ;>Retour</button>
-            </form>
         </section>
 
 
