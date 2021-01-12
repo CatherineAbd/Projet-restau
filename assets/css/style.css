@@ -1,3 +1,7 @@
+
+.CarouselimgSize{
+    height: 400px;
+}
 /**************************************************************************************/
 /***************************   FEUILLE DE STYLE V0.1   ********************************/
 /**************************************************************************************/
@@ -68,7 +72,103 @@ p
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
+/* Full-width input fields */
+.sectionInfoInput {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #E7DCB6;
+  box-shadow: 10px 5px 5px black;
+}
+/* Changing the style of input when focused */
+.sectionInfoInput:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
 
+/*changing the style of textarea*/
+.sectionInfoMessageBox{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #E7DCB6;
+    box-shadow: 10px 5px 5px black;
+}
+
+/*Changing the style of textarea when focused*/
+.sectionInfoMessageBox:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
+
+/* Overwrite default styles of hr */
+.sectionInfoLine {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* reservation button style */
+.sectionInfoBtn {
+  background-color: #E7DCB6;
+  color:#007C88;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 3px;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius:20px;
+}
+/*When button is hovered*/
+.sectionInfoBtn:hover {
+  opacity:1;
+}
+
+
+.sectionInfoForm {
+ 
+  display:none;
+}
+
+/*Changing the style of info*/
+.sectionInfo{
+  background-color:#007C88;
+  text-align: center;
+  color:white;
+}
+
+/*Border in the middle of the two cols in grid*/
+.sectionInfoBorderRight {
+  border-right:1px solid white;
+}
+
+/*changing the color of the figcap*/
+.sectionInfoCap{
+  color:white;
+}
+
+/*Changing the style of the list*/
+.sectionInfoList{
+  background-color:#007C88;
+  color:white;
+}
+
+/*Change the style of info links*/
+.sectionInfoLink{
+  text-decoration: none;
+  color:white;
+}
+
+/*Change the style of the link when hovered*/
+.sectionInfoLink:hover{
+  text-decoration: none;
+  color:#E7DCB6;
+}
 
 /********************************   STYLE FOOTER  *************************************/
 
@@ -119,3 +219,4 @@ p
 {
     color: white;
 }
+
