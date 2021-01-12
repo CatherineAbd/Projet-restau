@@ -60,16 +60,18 @@ h7
 /**************************************************************************************/
 /*********************************   STYLE NAV  ***************************************/
 
-.SectionNavbar{
-    background-color: #006188;
+.SectionNavLink
+{
+    color: white !important;
+    border-bottom: 3px solid #212529;
 }
-.SectionNavbar a{
-    color: white;
+.SectionNavLink:hover
+{
+    transition: 0.2s;
+    color: #006188 !important;
+    border-bottom: 3px solid #006188;
+    font-weight: bold;
 }
-.nav-item a{
-  color: white !important;
-}
-
 /********************************   STYLE BANNER  *************************************/
 
 .SectionBannerIcon{
