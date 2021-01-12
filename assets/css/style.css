@@ -7,24 +7,11 @@
 /* attendre le 12/01/2021 avant ajout de fonts */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+/* POUR UTILISER LA POLICE : font-family: 'Arvo', serif; */
 
 /*******************************   STYLE GLOBAL  **************************************/
-
-a
-{
-    
-}
-
-ul
-{
-
-}
-
-li
-{
-
-}
 
 p
 {
@@ -55,6 +42,7 @@ p
     background-color: #E7DCB6 ;
 }
 .SectionBannerPresentation h5, h6{
+	font-family: 'Arvo', serif;
     color: #4d4d4d
 }
 
@@ -79,6 +67,11 @@ p
 	background-attachment: fixed;
 }
 
+.SectionMenuH1
+{
+	font-family: 'Arvo', serif;
+}
+
 .SectionMenuImg{
     height: 300px;
     width: 300px;
@@ -93,6 +86,11 @@ p
 .SectionInfo {
 	background-color: yellow !important;
 }
+
+.SectionInfoH1
+{
+	font-family: 'Arvo', serif;
+}	
 
 .SectionInfoLeft {
 	background-color: #007C88;
@@ -164,6 +162,7 @@ p
 
 .SectionFooterH5
 {
+	font-family: 'Arvo', serif;
     display: inline-block;
     border-bottom: 3px solid#006188;
     border-bottom-width: thick;
