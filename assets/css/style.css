@@ -68,7 +68,14 @@ p
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
 
+.SectionMenuImg{
+    height: 300px;
+    width: 300px;
+}
 
+.SectionMenuHead{
+    color:#4D4D4D;
+}
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
