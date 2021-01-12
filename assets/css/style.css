@@ -100,6 +100,12 @@ p
 	background-color: #0090C8;
 }
 
+.SectionInfoRightN
+{
+	background-color: #0090C8;
+	display: none;
+}
+
 .SectionInformationMap {
 	border: 3px solid #003d42;
 	overflow: hidden;
