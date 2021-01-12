@@ -28,7 +28,8 @@ li
 
 p
 {
-
+	font-size: 12px;
+	color: white
 }
 
 /**************************************************************************************/
@@ -234,6 +235,7 @@ p
 
 .SectionFooterCol ul li .a
 {
+	font-size: 12px;
     color: white !important;
     text-decoration: none;
 }
@@ -259,6 +261,5 @@ p
 .SectionFooterP
 {
     display: inline;
-    color: #7b7c7e;
 }
 
