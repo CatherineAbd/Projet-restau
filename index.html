@@ -136,7 +136,7 @@
             </div>
         </section>
         <!-- banner responsive md-->
-        <section class="container mt-5 d-none d-md-block d-lg-none" id="SectionBanner">
+        <section class="container-fluid d-none d-md-block d-lg-none" id="SectionBanner">
             <div id="carouselVoileMD" class="carousel slide mx-auto" data-bs-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselVoileMD" data-bs-slide-to="0" class="active"></li>
@@ -181,79 +181,91 @@
 
 
         <!--Horaires-->
-        <section class="container SectionSchedule mt-5 mb-5" id="SectionSchedule">
-            <div class="text-center text-white">
-                <p class="h1">HORAIRES</p>
+        <section class="SectionSchedule container-fluid p-5" id="SectionSchedule">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="h1 text-white">HORAIRES</h1>
+                </div>
             </div>
-                <table class="table table.bordered table-hover SectionScheduleTable w-50 text-center mx-auto">
-                    <tbody>
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Ouverture</th>
-                                <th>Fermeture</th>
-                            </tr>
-                        </thead>
+
+            <table class="table table.bordered table-hover SectionScheduleTable w-50 text-center mx-auto">
+                <tbody>
+                    <thead>
                         <tr>
-                            <th class="text-start">Mardi</th>
-                            <td>14h</td>
-                            <td>22h</td>
+                            <th></th>
+                            <th>Ouverture</th>
+                            <th>Fermeture</th>
                         </tr>
-                        <tr>
-                            <th class="text-start">Mercredi</th>
-                            <td>10h</td>
-                            <td>22h</td>
-                        </tr>
-                        <tr>
-                            <th class="text-start">Jeudi</th>
-                            <td>10h</td>
-                            <td>22h</td>
-                        </tr>
-                        <tr>
-                            <th class="text-start">Vendredi</th>
-                            <td>10h</td>
-                            <td>22h</td>
-                        </tr>
-                        <tr>
-                            <th class="text-start">Samedi</th>
-                            <td>10h</td>
-                            <td>22h</td>
-                        </tr>
-                        <tr>
-                            <th class="text-start">Dimanche</th>
-                            <td>10h</td>
-                            <td>16h</td>
-                        </tr>
-                    </tbody>
-                </table>
+                    </thead>
+                    <tr>
+                        <th class="text-start">Mardi</th>
+                        <td>14h</td>
+                        <td>22h</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start">Mercredi</th>
+                        <td>10h</td>
+                        <td>22h</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start">Jeudi</th>
+                        <td>10h</td>
+                        <td>22h</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start">Vendredi</th>
+                        <td>10h</td>
+                        <td>22h</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start">Samedi</th>
+                        <td>10h</td>
+                        <td>22h</td>
+                    </tr>
+                    <tr>
+                        <th class="text-start">Dimanche</th>
+                        <td>10h</td>
+                        <td>16h</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
         <!--Carte du jour-->
-        <section class="container SectionMenu mb-5 mt-5" id="SectionMenu">
+        <section class="container-fluid SectionMenu mb-5 mt-5" id="SectionMenu">
             <div class="SectionMenuHead text-center mb-5">
                 <p class="h1">MENU</p>
             </div>
             <div class="row SectionMenu justify-content-center mb-5">
-                <div class="col text-center"> <img src="assets/image/Huîtres.jpg" alt="Assiette d'huîtres" class="SectionMenuImg"></div>
-                <div class="col text-center"> <img src="assets/image/salade-de-chevre-vegetarienne.jpg" alt="Salade de chèvre" class="SectionMenuImg"></div>
-                <div class="col text-center"> <img src="assets/image/moulesfrites.jpg" alt="Moules frites" class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/Huîtres.jpg" alt="Assiette d'huîtres"
+                        class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/salade-de-chevre-vegetarienne.jpg"
+                        alt="Salade de chèvre" class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/moulesfrites.jpg" alt="Moules frites"
+                        class="SectionMenuImg"></div>
             </div>
             <div class="row SectionMenu justify-content-center mt-5 mb-5">
-                <div class="col text-center"> <img src="assets/image/tarte.jpg" alt="Appétissante tarte citron meringué" class="SectionMenuImg"></div>
-                <div class="col text-center"><img src="assets/image/menuVB.jpg" alt="Menu" class="SectionMenuImgMenu SectionMenuImg zoom"></div>
-                <div class="col text-center"> <img src="assets/image/colossal-cafe-gourmand.jpg" alt="Colossal café gourmand" class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/tarte.jpg" alt="Appétissante tarte citron meringué"
+                        class="SectionMenuImg"></div>
+                <div class="col text-center"><img src="assets/image/menuVB.jpg" alt="Menu"
+                        class="SectionMenuImgMenu SectionMenuImg zoom"></div>
+                <div class="col text-center"> <img src="assets/image/colossal-cafe-gourmand.jpg"
+                        alt="Colossal café gourmand" class="SectionMenuImg"></div>
             </div>
             <div class="row SectionMenu justify-content-center mt-5">
-                <div class="col text-center"> <img src="assets/image/steack-hache-frites.jpg" alt="Le classique steack-hache-frites" class="SectionMenuImg"></div>
-                <div class="col text-center"> <img src="assets/image/plateauFruitMer.jpg" alt="L'incontournable plateau de fruits de mer" class="SectionMenuImg"></div>
-                <div class="col text-center"> <img src="assets/image/poupleRoti.jpg" alt="Quelques bras de mer ..." class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/steack-hache-frites.jpg"
+                        alt="Le classique steack-hache-frites" class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/plateauFruitMer.jpg"
+                        alt="L'incontournable plateau de fruits de mer" class="SectionMenuImg"></div>
+                <div class="col text-center"> <img src="assets/image/poupleRoti.jpg" alt="Quelques bras de mer ..."
+                        class="SectionMenuImg"></div>
             </div>
-    </section>
-        
+        </section>
+
         <!--information-->
         <section class="container-fluid sectionInfo" id="SectionContact">
             <!-- Bloc informations -->
-    
+
             <div id="infoBox">
                 <div class="row justify-content-center d-flex align-items-center">
                     <div class="col sectionInfoBorderRight fw-bold">
@@ -263,54 +275,80 @@
                                     src="assets/image/plan.png"></a>
                             <figcaption class="figure-caption sectionInfoCap d-sm-inline d-sm-none ">Cliquez l'image
                             </figcaption>
-                            <figcaption class="figure-caption sectionInfoCap d-none d-sm-inline"> Cliquez l'image pour accéder à google maps<br>
+                            <figcaption class="figure-caption sectionInfoCap d-none d-sm-inline"> Cliquez l'image pour
+                                accéder à google maps<br>
                             </figcaption>
-                            <p class="address d-none d-sm-inline">58 Rue des Sauveteurs Numero de la Suite, Intersection, Place, 76600, Le
+                            <p class="address d-none d-sm-inline">58 Rue des Sauveteurs Numero de la Suite,
+                                Intersection, Place, 76600, Le
                                 Havre France</p>
                         </figure>
                     </div>
-    
+
                     <div id="informations" class="col fw-bold">
-                    
+
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fas fa-mobile-alt"></i> 06 83 80 07 90</li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fas fa-mobile-alt"></i> <a href="tel:+33683800790" class="sectionInfoLink">Appel</a></li>
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-facebook-square"></i><a href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/" class="sectionInfoLink" target="_blank"> Notre page facebook</a></li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-facebook-square"></i><a href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/" class="sectionInfoLink" target="_blank"> Facebook</a></li>         
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i class="fab fa-tripadvisor"></i><a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" class="sectionInfoLink" target="_blank"> Notre page tripadvisor</a></li>
-                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i class="fab fa-tripadvisor"></i><a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" class="sectionInfoLink" target="_blank"> Avis</a></li>
-                            <li class="list-group-item sectionInfoList d-none d-sm-inline">Pour toute demande veuillez nous contacter via le formulaire de contact en appuyant sur le bouton demande d'informations.</li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
+                                    class="fas fa-mobile-alt"></i> 06 83 80 07 90</li>
+                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
+                                    class="fas fa-mobile-alt"></i> <a href="tel:+33683800790"
+                                    class="sectionInfoLink">Appel</a></li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
+                                    class="fab fa-facebook-square"></i><a
+                                    href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
+                                    class="sectionInfoLink" target="_blank"> Notre page facebook</a></li>
+                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
+                                    class="fab fa-facebook-square"></i><a
+                                    href="https://fr-fr.facebook.com/pages/category/Local-Business/La-Voile-Bleue-597392320275229/"
+                                    class="sectionInfoLink" target="_blank"> Facebook</a></li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline"><i
+                                    class="fab fa-tripadvisor"></i><a
+                                    href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
+                                    class="sectionInfoLink" target="_blank"> Notre page tripadvisor</a></li>
+                            <li class="list-group-item sectionInfoList d-sm-inline d-sm-none"><i
+                                    class="fab fa-tripadvisor"></i><a
+                                    href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d807897-Reviews-La_Voile_Bleue-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
+                                    class="sectionInfoLink" target="_blank"> Avis</a></li>
+                            <li class="list-group-item sectionInfoList d-none d-sm-inline">Pour toute demande veuillez
+                                nous contacter via le formulaire de contact en appuyant sur le bouton demande
+                                d'informations.</li>
                         </ul>
                     </div>
-                <div class="row" id="contactButton">
-                    <div class="col">
-                        <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showForm()">Demande d'informations</button>
+                    <div class="row" id="contactButton">
+                        <div class="col">
+                            <button type="button" class="sectionInfoBtn btn btn-outline-primary"
+                                onclick="showForm()">Demande d'informations</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            </div>
             <!-- Formulaire d'informations -->
-            <form name="reservationForm" class ="sectionInfoForm" id="formula">
+            <form name="reservationForm" class="sectionInfoForm" id="formula">
                 <div class="container">
                     <h1>Demande d'informations</h1>
                     <p>Veuillez entrer vos informations.</p>
                     <hr class="sectionInfoLine">
-    
+
                     <label for="mail"><b>Adresse mail :</b></label>
-                    <input class="sectionInfoInput" type="text" placeholder="exemple@gmail.com" name="mail" id="mail" required>
+                    <input class="sectionInfoInput" type="text" placeholder="exemple@gmail.com" name="mail" id="mail"
+                        required>
                     <span style="color: darkred;" id="errorMail"></span>
                     <label for="psw"><b>Numéro de téléphone :</b></label>
-                    <input class="sectionInfoInput" type="text" placeholder="EX: 0634768970" name="tel" id="tel" required>
+                    <input class="sectionInfoInput" type="text" placeholder="EX: 0634768970" name="tel" id="tel"
+                        required>
                     <span style="color: darkred;" id="errorTel"></span>
                     <label for="psw-repeat"><b>Message :</b></label><br>
-                    <textarea class="sectionInfoMessageBox" placeholder="Entrez votre message" name="msg" id="msg" required></textarea>
+                    <textarea class="sectionInfoMessageBox" placeholder="Entrez votre message" name="msg" id="msg"
+                        required></textarea>
                     <span style="color: darkred;" id="errorMessage"></span>
                     <hr>
-    
-                    <input type="checkbox" ID="acceptNewsletter">Cochez ceci pour vous abonner à notre newsletter.<br></input>
-                    <button type="button" class="sectionInfoBtn justify-content-center btn btn-outline-primary" onclick="checkEmail();checkTel();emptyMessage()">Demande d'informations</button>
+
+                    <input type="checkbox" ID="acceptNewsletter">Cochez ceci pour vous abonner à notre
+                    newsletter.<br></input>
+                    <button type="button" class="sectionInfoBtn justify-content-center btn btn-outline-primary"
+                        onclick="checkEmail();checkTel();emptyMessage()">Demande d'informations</button>
                 </div>
-                <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showInfo()" ;>Retour</button>
+                <button type="button" class="sectionInfoBtn btn btn-outline-primary" onclick="showInfo()"
+                    ;>Retour</button>
             </form>
         </section>
 
