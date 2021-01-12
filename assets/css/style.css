@@ -70,6 +70,14 @@ p
 
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
+.SectionMenu
+{
+	background: url('../image/cover.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
 
 .SectionMenuImg{
     height: 300px;
