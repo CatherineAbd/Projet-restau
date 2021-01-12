@@ -23,14 +23,12 @@ p
 /*****************************   STYLE PAR SECTION  ***********************************/
 /**************************************************************************************/
 /*********************************   STYLE NAV  ***************************************/
-.SectionNavbar{
-    background-color: #006188;
+
+.nav-item a:hover{
+    color: #006188 !important;
 }
-.SectionNavbar a{
-    color: white;
-}
-.SectionNavbar a:hover{
-    color: #E7DCB6;
+.nav-item a{
+  color: white !important;
 }
 
 /********************************   STYLE BANNER  *************************************/
