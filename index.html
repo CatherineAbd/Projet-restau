@@ -283,18 +283,28 @@
                             <h6 class="SectionInfoH6 ">FORMULAIRE</h6>
                         </div>
                     </div>
+
                     <div class="row p-5">
-                        <div class="col-md-12 text-center fw-bold">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Adresse email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@gmail.com">
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
+                        <div class="col-md-12 p-5 text-start fw-bold">
+                            <form class="form p-5">
+                                <div class="row">
+                                    <label>Votre nom (obligatoire)</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="row">
+                                    <label>Votre e-mail (obligatoire)</label>
+                                    <input type="email" class="form-control" />
+                                </div>
+                                
+                                <label>Sujet</label>
+                                <input type="text" class="form-control" />
+                                <label>Votre message</label>
+                                <textarea placeholder="j'aime les floats..."></textarea>
+                                <input type="button" value="Envoyer">
+                            </form>
                         </div>
                     </div>
+
                     <div class="row mx-auto py-3">
                         <div class="col-md-2">
                             <button class="SectionInfoBTN btn" onclick="showInfo();">Voir Information</button>
