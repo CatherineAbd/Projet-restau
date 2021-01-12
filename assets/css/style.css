@@ -53,6 +53,13 @@ p
 
 /*******************************   STYLE HORAIRE  *************************************/
 
+.SectionSchedule{
+    background-color: #007DAE;
+}
+
+.SectionScheduleTable{
+    color: #E7DDB6 !important;
+}
 
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
