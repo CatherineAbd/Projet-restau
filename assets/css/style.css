@@ -7,24 +7,11 @@
 /* attendre le 12/01/2021 avant ajout de fonts */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
+/* POUR UTILISER LA POLICE : font-family: 'Arvo', serif; */
 
 /*******************************   STYLE GLOBAL  **************************************/
-
-a
-{
-    
-}
-
-ul
-{
-
-}
-
-li
-{
-
-}
 
 p
 {
@@ -56,6 +43,7 @@ p
     background-color: #E7DCB6 ;
 }
 .SectionBannerPresentation h5, h6{
+	font-family: 'Arvo', serif;
     color: #4d4d4d
 }
 */
@@ -82,6 +70,19 @@ p
 
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
+.SectionMenu
+{
+	background: url('../image/cover.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.SectionMenuH1
+{
+	font-family: 'Arvo', serif;
+}
 
 .SectionMenuImg{
     height: 300px;
@@ -94,102 +95,43 @@ p
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
-/* Full-width input fields */
-.sectionInfoInput {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #E7DCB6;
-  box-shadow: 10px 5px 5px black;
-}
-/* Changing the style of input when focused */
-.sectionInfoInput:focus {
-  background-color: #ddd;
-  outline: none;
-  box-shadow: 10px 5px 5px black;
+.SectionInfo {
+	background-color: yellow !important;
 }
 
-/*changing the style of textarea*/
-.sectionInfoMessageBox{
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #E7DCB6;
-    box-shadow: 10px 5px 5px black;
+.SectionInfoH1
+{
+	font-family: 'Arvo', serif;
+}	
+
+.SectionInfoLeft {
+	background-color: #007C88;
 }
 
-/*Changing the style of textarea when focused*/
-.sectionInfoMessageBox:focus {
-  background-color: #ddd;
-  outline: none;
-  box-shadow: 10px 5px 5px black;
+.SectionInfoRight {
+	background-color: #0090C8;
 }
 
-/* Overwrite default styles of hr */
-.sectionInfoLine {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+.SectionInfoRightN
+{
+	background-color: #0090C8;
+	display: none;
 }
 
-/* reservation button style */
-.sectionInfoBtn {
-  background-color: #E7DCB6;
-  color:#007C88;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: 3px;
-  cursor: pointer;
-  opacity: 0.9;
-  border-radius:20px;
-}
-/*When button is hovered*/
-.sectionInfoBtn:hover {
-  opacity:1;
+.SectionInformationMap {
+	border: 3px solid #003d42;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
 }
 
-
-.sectionInfoForm {
- 
-  display:none;
-}
-
-/*Changing the style of info*/
-.sectionInfo{
-  background-color:#007C88;
-  text-align: center;
-  color:white;
-}
-
-/*Border in the middle of the two cols in grid*/
-.sectionInfoBorderRight {
-  border-right:1px solid white;
-}
-
-/*changing the color of the figcap*/
-.sectionInfoCap{
-  color:white;
-}
-
-/*Changing the style of the list*/
-.sectionInfoList{
-  background-color:#007C88;
-  color:white;
-}
-
-/*Change the style of info links*/
-.sectionInfoLink{
-  text-decoration: none;
-  color:white;
-}
-
-/*Change the style of the link when hovered*/
-.sectionInfoLink:hover{
-  text-decoration: none;
-  color:#E7DCB6;
+.SectionInformationMap iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 /********************************   STYLE FOOTER  *************************************/
@@ -238,6 +180,7 @@ p
 
 .SectionFooterH5
 {
+	font-family: 'Arvo', serif;
     display: inline-block;
     border-bottom: 3px solid#006188;
     border-bottom-width: thick;
