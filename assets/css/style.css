@@ -188,7 +188,8 @@ p
       float: left;
       width: 36px;
       height: 36px;
-      border: 2px solid #006188;
+      border: 3px solid #003d42;
+      background: white;
       border-radius: 100%;
       margin-right: 7px; /*space between*/
       display: flex;
@@ -199,7 +200,7 @@ p
   .SectionFooterSocial a i{
       font-size: 20px;
       align-self:center;
-      color: #909090;
+      color: #007C88;
       transition: all 0.4s;
       -webkit-transition: all 0.4s;
       margin: 0 auto;
@@ -229,12 +230,6 @@ p
     color: white;
 }
 
-.sectionFooterCol ul
-{
-    padding-left: 50%;
-    text-align: left !important;
-}
-
 .SectionFooterCol ul li .a
 {
     color: white !important;
@@ -262,6 +257,6 @@ p
 .SectionFooterP
 {
     display: inline;
-    color: #006188;
+    color: #7b7c7e;
 }
 
