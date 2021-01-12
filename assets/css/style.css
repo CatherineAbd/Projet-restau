@@ -108,17 +108,24 @@ h6 {
     background-color: white;
 }
 
-.SectionScheduleLink {
+.SectionScheduleBTN {
+    border: 2px solid black;
+    border-radius: 25px;
     background: white !important;
 }
 
-.SectionScheduleLink a{
-    color: black !important;
+.SectionScheduleBTN:hover {
+    transition: 0.3s;
+    background: #151B27 !important;
 }
 
-.SectionScheduleLink:hover {
-    transition: 0.2s;
-    background: #151B27 !important;
+.SectionScheduleBTN a{
+    color: black ;
+    display: inline-block;
+}
+
+.SectionScheduleBTN a:hover {
+    transition: 0.3s;
     color: white !important;
 }
 
