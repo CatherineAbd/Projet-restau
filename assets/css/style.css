@@ -74,7 +74,14 @@ p
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
 
+.SectionMenuImg{
+    height: 300px;
+    width: 300px;
+}
 
+.SectionMenuHead{
+    color:#4D4D4D;
+}
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
@@ -177,26 +184,80 @@ p
 }
 
 /********************************   STYLE FOOTER  *************************************/
+.SectionFooterSpan
+{
+    color: white;
+}
 
-.SectionFooter
+.SectionFooterSocial a{
+    text-align:center;
+      float: left;
+      width: 36px;
+      height: 36px;
+      border: 2px solid #006188;
+      border-radius: 100%;
+      margin-right: 7px; /*space between*/
+      display: flex;
+      align-items: flex-start;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+  } 
+  .SectionFooterSocial a i{
+      font-size: 20px;
+      align-self:center;
+      color: #909090;
+      transition: all 0.4s;
+      -webkit-transition: all 0.4s;
+      margin: 0 auto;
+  }
+  .SectionFooterSocial a i::before{
+    display:inline-block;
+    text-decoration:none;
+  }
+  .SectionFooterSocial a:hover{
+    background: rgba(0,0,0,0.2);
+  }
+  .SectionFooterSocial a:hover i{
+    color:#fff;
+  }
+
+  .SectionFooter
 {
     background-color: #1C2431 !important;
 }
 
 .SectionFooterH5
 {
+    display: inline-block;
+    border-bottom: 3px solid#006188;
+    border-bottom-width: thick;
     text-transform: uppercase;
-    color : #D2CBA6;
+    color: white;
 }
 
-.SectionFooterCol ul li a
+.sectionFooterCol ul
+{
+    padding-left: 50%;
+    text-align: left !important;
+}
+
+.SectionFooterCol ul li .a
 {
     color: white !important;
+    text-decoration: none;
+}
+
+.SectionFooterCol ul li .a:hover
+{
+    transition: 0.1s;
+    font-weight: bold;
+    color: #006188 !important;
+    text-decoration: underline;
 }
 
 .SectionFooterSocialPart
 {
-    background-color: #D2CBA6;
+    background-color: #006188;
 }
 
 .SectionFooterCredit
@@ -207,6 +268,6 @@ p
 .SectionFooterP
 {
     display: inline;
-    color: white;
+    color: #006188;
 }
 
