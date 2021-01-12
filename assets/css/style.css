@@ -47,6 +47,7 @@ p
 }
 
 /********************************   STYLE BANNER  *************************************/
+/*
 .SectionBannerIcon{
     background-color:#006188;
 }
@@ -56,6 +57,17 @@ p
 }
 .SectionBannerPresentation h5, h6{
     color: #4d4d4d
+}
+*/
+#carouselVoile {
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
 }
 
 /*******************************   STYLE HORAIRE  *************************************/
