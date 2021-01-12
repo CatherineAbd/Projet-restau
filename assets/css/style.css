@@ -117,6 +117,13 @@ p
 	display: none;
 }
 
+.SectionInfoBTN
+{
+    border: 3px solid #007C88;
+    background: white;
+    color: red;
+}
+
 .SectionInformationMap {
 	border: 3px solid #003d42;
 	overflow: hidden;
