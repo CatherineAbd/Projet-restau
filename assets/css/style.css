@@ -69,14 +69,6 @@ p
 
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
-.SectionMenu
-{
-	background: url('../image/cover.jpg');
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
 .SectionMenuH1
 {
@@ -222,5 +214,14 @@ p
 .SectionFooterP
 {
     display: inline;
+}
+/********************************   STYLE PARALLAX  *************************************/
+.parallax
+{
+	background: url('../image/parallax.png');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
