@@ -56,4 +56,27 @@ function showForm() {
     document.getElementById('info').style.display = "block";
  }
 
- 
+//Function that shows "entrees"
+function showEntry() {
+    document.getElementById('entree').style.display = "block";
+    document.getElementById('plates').style.display = "none";
+    document.getElementById('dessert').style.display = "none";
+ }
+
+ //Function that shows "plates"
+function showPlates() {
+    document.getElementById('entree').style.display = "none";
+    document.getElementById('plates').style.display = "block";
+    document.getElementById('dessert').style.display = "none";
+ }
+
+ //Function that shows "desserts"
+function showDesserts() {
+    document.getElementById('entree').style.display = "none";
+    document.getElementById('plates').style.display = "none";
+    document.getElementById('dessert').style.display = "block";
+ }
+
+
+
+  
