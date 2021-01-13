@@ -12,22 +12,37 @@ else{
 }
 
 
-//Password checking function
+//Name checking function
 
-function checkTel(){
-    let phone = document.reservationForm.tel.value;
-    phone = phone.replace(/[\.,\s]/g, "");
-    reg = phone.match(/^(\+33|0033|0)(6|7)[0-9]{8}$/g);
-    if(phone != reg){
-        document.getElementById("errorTel").innerHTML = "Veuillez entrer un numéro de téléphone valide. <br>";
+function checkName(){
+    let name = document.reservationForm.name.value;
+    reg = name.match(/^[a-z -]+$/gmi);
+     if(name != reg){
+        document.getElementById("errorName").innerHTML = "Vous essayez d'envoyer un nom vide ou qui contient des caractères interdits (Ex : #< ...), veuillez réessayer.<br>";
+    }
+    else if(name == null){
+        document.getElementById("errorName").innerHTML = "Vous essayez d'envoyer un nom vide ou qui contient des caractères interdits (Ex : #< ...), veuillez réessayer.<br>"
+
     }
     else{
-        document.getElementById("errorTel").innerHTML = "";
+        document.getElementById("errorName").innerHTML = "";
     }
+}
+
+//Subject checking function
+
+function checkSubject(){
+    let subj = document.reservationForm.subject.value;
+    reg = subj.match(/^[a-z 0-9 -]+$/gmi);
+    if (subj != reg){
+        document.getElementById("errorSubject").innerHTML = "Votre sujet contient des caractères interdits ou est vide.</br>";
     }
+    else{
+        document.getElementById("errorSubject").innerHTML ="";
+    }
+}
 
-
- //Password matching checking function
+ //Message checking function
 
 function emptyMessage(){
     let msag = document.reservationForm.msg.value;

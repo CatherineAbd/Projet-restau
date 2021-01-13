@@ -77,17 +77,6 @@ h7 {
     background-color: #006188;
 }
 
-.SectionBannerPresentation {
-    color: #006188;
-    background-color: #E7DCB6;
-}
-
-.SectionBannerPresentation h5,
-h6 {
-
-    color: #4d4d4d
-}
-
 #carouselVoile {
     padding: 0px;
     width: 100%;
@@ -162,7 +151,7 @@ margin-bottom:35px;
     width:50%;
     float:left;
     padding:15px;
-    position:realtive;  
+    position:relative;  
 }
 
 .sectionMenuRestaurant .sectionMenuTitle
@@ -232,9 +221,6 @@ padding:5px 10px;
 
 
 
-
-
-
 /*****************************   STYLE INFORMATION  ***********************************/
 
 .SectionInfoH4 {
@@ -288,6 +274,39 @@ padding:5px 10px;
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+
+.sectionInfoInput {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #E7DCB6;
+  box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoInput:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoMessageBox{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #E7DCB6;
+    box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoMessageBox:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
 }
 
 /********************************   STYLE FOOTER  *************************************/
