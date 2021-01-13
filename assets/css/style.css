@@ -132,39 +132,37 @@ h6 {
 
 .sectionMenuBtn{
     color:#FFB03B;
-    font-weight: bold;
     font-family: 'Arvo', serif;
 }
 
-.sectionHeaderH {
+.sectionMenuHeaderH {
     font-size: 35px;
-color: #FFB03B;
-font-size: 46px;
-font-family: 'Arvo', serif;
-font-weight: 300;
+    color: #FFB03B;
+    font-size: 46px;
+    font-family: 'Arvo', serif;
+    font-weight: 300;
 }
 
 .sectionMenuList
 {
-list-style:none;
+    list-style:none;
 }
 
 
-.sectionPadding{
+.sectionMenuPadding{
 padding: 60px 0px;
 }
 
-.sectionMargB{
+.sectionMenuMargB{
 margin-bottom:35px;
 }
 
 .sectionMenuRestaurant
 {
-width:50%;
-float:left;
-padding:15px;
-position:realtive;
-
+    width:50%;
+    float:left;
+    padding:15px;
+    position:realtive;  
 }
 
 .sectionMenuRestaurant .sectionMenuTitle
@@ -173,79 +171,63 @@ float:left;
 font-family: 'Arvo', serif;
 text-transform:uppercase;
 letter-spacing:1px;
-color:#FFB03B;
+color:white;
 }
 
 .sectionMenuRestaurant .sectionMenuLine
 {
-position: absolute;
-bottom:6px;
-border-bottom:1px dotted rgba(0,0,0,.3);
-margin-left: .6em;
-margin-right: .6em;
-
+    position: absolute;
+    bottom:6px;
+    border-bottom:1px dotted rgba(0,0,0,.3);
+    margin-left: .6em;
+    margin-right: .6em;
 }
 
 .sectionMenuRestaurant .sectionMenuPrice{
-font-weight:600;
-position:absolute;
-right:0;
-top:0;
-color:white;
-
+    font-weight:600;
+    position:absolute;
+    right:0;
+    top:0;
+    color:white;
 }
 
 .sectionMenuRestaurant
 {
-display:block;
-float:left;
-color:#B1B1B1;
-font-family: 'Arvo', serif;
-font-size: 1.2rem;
+    display:block;
+    float:left;
+    color:#B1B1B1;
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
 }
 
 .sectionMenuRestaurant .sectionClearfix{
-position:relative;
-display:block;
+    position:relative;
+    display:block;
 }
 #menu-filters .sectionListTitle  #menu-filters .sectionListTitle 
 {
-background: #FFB03B;
-color:#fff;
-border:1px solid #FFB03B;
+    background: #FFB03B;
+    color:#fff;
+    border:1px solid #FFB03B;
 }
-#menu-filters ul li 
+
+.sectionListTitle 
 {
-display:inline-block;
-color:#fff;
-text-transform:capitalize;
-letter-spacing:1px;
-margin-bottom:40px;
-}
-#menu-filters .sectionListTitle 
-{
-padding:10px 20px;
-font-size:14px;
-color:#565656;
-border-radius:0px;
-border:1px solid #BBBBBB;
-text-decoration:none;
-cursor:pointer;
+padding:5px 10px;
+
 
 }
-
-
 .sectionMenuRestaurant 
 {
-width: 100%;
+    width: 100%;
 }
 .header-h
 {
-font-size: 35px;
+    font-size: 35px;
 }
 .header-p 
 {
-font-size: 14px;
+    font-size: 14px;
 }
 
 
