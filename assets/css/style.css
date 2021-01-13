@@ -4,85 +4,126 @@
 
 /***************************   IMPORTATION DES FONTS  *********************************/
 
-/* attendre le 12/01/2021 avant ajout de fonts */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 /* POUR UTILISER LA POLICE : font-family: 'Arvo', serif; */
 
 /*******************************   STYLE GLOBAL  **************************************/
 
-p
-{
-	font-size: 12px;
-	color: white
+* {
+    font-family: 'Arvo', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 12px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 40px;
+}
+
+h7 {
+    font-size: 25px;
 }
 
 /**************************************************************************************/
 /*****************************   STYLE PAR SECTION  ***********************************/
 /**************************************************************************************/
-/*********************************   STYLE NAV  ***************************************/
-.SectionNavbar{
-    background-color: #006188;
+/*********************************   STYLE NAV*  ***************************************/
+.SectionNavbar {
+    border-bottom: 3px solid #006188;
 }
-.SectionNavbar a{
-    color: white;
+
+.SectionNavLink {
+    color: white !important;
+    border-bottom: 3px solid #212529;
 }
-.SectionNavbar a:hover{
-    color: #E7DCB6;
+
+.SectionNavLink:hover {
+    transition: 0.2s;
+    color: #006188 !important;
+    border-bottom: 3px solid #006188;
+    font-weight: bold;
 }
 
 /********************************   STYLE BANNER  *************************************/
 
-.SectionBannerIcon{
-    background-color:#006188;
+.SectionBannerIcon {
+    background-color: #006188;
 }
-.SectionBannerPresentation{
+
+.SectionBannerPresentation {
     color: #006188;
-    background-color: #E7DCB6 ;
+    background-color: #E7DCB6;
 }
-.SectionBannerPresentation h5, h6{
-	font-family: 'Arvo', serif;
+
+.SectionBannerPresentation h5,
+h6 {
+
     color: #4d4d4d
 }
 
 #carouselVoile {
-	padding: 0px;
-  width: 100%;  
+    padding: 0px;
+    width: 100%;
 }
 
 .carousel-item img {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 
 /*******************************   STYLE HORAIRE  *************************************/
 
-.SectionSchedule{
-    background-color: #007DAE;
+.SectionScheduleH2 {
+    color: black;
 }
 
-.SectionScheduleTable{
-    color: #E7DDB6 !important;
+.SectionSchedule {
+    background-color: white;
 }
 
+.SectionScheduleLink {
+    background: white !important;
+}
+
+.SectionScheduleLink a{
+    color: black !important;
+}
+
+.SectionScheduleLink:hover {
+    transition: 0.2s;
+    background: #151B27 !important;
+    color: white !important;
+}
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
-/* 
-.SectionMenuH1
-{
-	font-family: 'Arvo', serif;
-}
 
-.SectionMenuImg{
-    height: 300px;
-    width: 300px;
-}
-
-.SectionMenuHead{
-    color:#4D4D4D;
-} */
 .sectionMenuBtn{
     color:#FFB03B;
     font-weight: bold;
@@ -208,99 +249,101 @@ font-size: 14px;
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
-.SectionInfo {
-	background-color: yellow !important;
+.SectionInfoH4 {
+    color: white;
 }
 
-.SectionInfoH1
-{
-	font-family: 'Arvo', serif;
-}	
+.SectionInfoH5 {
+    color: white;
+}
+
+.SectionInfoH6 {
+    color: white;
+}
 
 .SectionInfoLeft {
-	background-color: #007C88;
+    background-color: #007C88;
 }
 
 .SectionInfoRight {
-	background-color: #0090C8;
+    background-color: #0090C8;
 }
 
-.SectionInfoRightN
-{
-	background-color: #0090C8;
-	display: none;
+.SectionInfoRightN {
+    background-color: #0090C8;
+    display: none;
 }
 
-.SectionInfoBTN
-{
+.SectionInfoBTN {
     border: 3px solid #007C88;
     background: white;
     color: red;
 }
 
 .SectionInformationMap {
-	border: 3px solid #003d42;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	position: relative;
-	height: 0;
+    border: 3px solid #003d42;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 }
 
 .SectionInformationMap iframe {
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 /********************************   STYLE FOOTER  *************************************/
-.SectionFooterSpan
-{
+.SectionFooterSpan {
     color: white;
 }
 
-.SectionFooterSocial a{
-    text-align:center;
-      float: left;
-      width: 36px;
-      height: 36px;
-      border: 3px solid #003d42;
-      background: white;
-      border-radius: 100%;
-      margin-right: 7px; /*space between*/
-      display: flex;
-      align-items: flex-start;
-      transition: all 0.4s;
-      -webkit-transition: all 0.4s;
-  } 
-  .SectionFooterSocial a i{
-      font-size: 20px;
-      align-self:center;
-      color: #007C88;
-      transition: all 0.4s;
-      -webkit-transition: all 0.4s;
-      margin: 0 auto;
-  }
-  .SectionFooterSocial a i::before{
-    display:inline-block;
-    text-decoration:none;
-  }
-  .SectionFooterSocial a:hover{
-    background: rgba(0,0,0,0.2);
-  }
-  .SectionFooterSocial a:hover i{
-    color:#fff;
-  }
+.SectionFooterSocial a {
+    text-align: center;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border: 3px solid #003d42;
+    background: white;
+    border-radius: 100%;
+    margin-right: 7px;
+    /*space between*/
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
 
-  .SectionFooter
-{
+.SectionFooterSocial a i {
+    font-size: 20px;
+    align-self: center;
+    color: #007C88;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    margin: 0 auto;
+}
+
+.SectionFooterSocial a i::before {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.SectionFooterSocial a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.SectionFooterSocial a:hover i {
+    color: #fff;
+}
+
+.SectionFooter {
     background-color: #1C2431 !important;
 }
 
-.SectionFooterH5
-{
-	font-family: 'Arvo', serif;
+.SectionFooterH7 {
     display: inline-block;
     border-bottom: 3px solid#006188;
     border-bottom-width: thick;
@@ -308,42 +351,36 @@ font-size: 14px;
     color: white;
 }
 
-.SectionFooterCol ul li .a
-{
-	font-size: 12px;
+.SectionFooterCol ul li .a {
+    font-size: 12px;
     color: white !important;
     text-decoration: none;
 }
 
-.SectionFooterCol ul li .a:hover
-{
+.SectionFooterCol ul li .a:hover {
     transition: 0.1s;
     font-weight: bold;
     color: #006188 !important;
     text-decoration: underline;
 }
 
-.SectionFooterSocialPart
-{
+.SectionFooterSocialPart {
     background-color: #006188;
 }
 
-.SectionFooterCredit
-{
+.SectionFooterCredit {
     background-color: #151B27;
 }
 
-.SectionFooterP
-{
+.SectionFooterP {
     display: inline;
 }
-/********************************   STYLE PARALLAX  *************************************/
-.parallax
-{
-	background: url('../image/parallax.png');
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed;
-}
 
+/********************************   STYLE PARALLAX  *************************************/
+.parallax {
+    background: url('../image/parallax.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
