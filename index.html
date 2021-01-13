@@ -176,147 +176,143 @@
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
         <section id="menu" class="col-md-12 sectionMenuPadding container-fluid parallax fw-bold">
             <div class="container-fluid">
-            <div class="row">
-          <div class="col text-center sectionMenuMargB">
-            <h1 class="sectionMenuHeaderH">Menu </h1>
-              </div>
-              <div class="col text-center justify-content-center fw-bold fs-3">
-                <ul class="sectionMenuList">
-                  <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showEntry()">Entrées</button></li>
-                   <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showPlates()">Plats</button></li>
-                   <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showDesserts()">Desserts</button></li>
-                </ul>
-              </div>
+                <div class="row">
+                    <div class="col text-center sectionMenuMargB">
+                        <h1 class="sectionMenuHeaderH">Menu </h1>
+                    </div>
+                    <div class="col text-center justify-content-center fw-bold fs-3">
+                        <ul class="sectionMenuList">
+                            <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showEntry()">Entrées</button></li>
+                            <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showPlates()">Plats</button></li>
+                            <li class="sectionListTitle"><button type="button" class="btn sectionMenuBtn" onclick="showDesserts()">Desserts</button></li>
+                        </ul>
+                    </div>
+                </div>
 <!------------------------------------------------------------------------- Entrées --------------------------------------------------------------------------->
-              <div id="entree" style="display:block;">
-                <div class="breakfast sectionMenuRestaurant">
-                  <span class="sectionClearfix">
-                    <a class="sectionMenuTitle" href="#" data-meal-img=".jpg">Burrata</a>
-                    <span style="left:166px;right:44px;" class="sectionMenuLine"></span>
-                    <span class="sectionMenuPrice">12 Euros</span>
-                  </span>
-                </div>
-                 <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Assiette mer</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">14 Euros</span>
-                      </span>
-                    </div>
-          
-                    <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Ceviche</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">12 Euros</span>
-                      </span>
-                    </div>
-                    
-                    <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Tarte camemb.</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">9.50 Euros</span>
-                      </span>
-                    </div>
-                </div>
-
-                <!------------------------------------------------------------------------- Plats --------------------------------------------------------------------------->
-                <div id="plates" style="display:none;">
-                    <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Bulots</a>
-                        <span style="left:166px;right:44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">9.30 Euros</span>
-                      </span>
-                   
-                    </div>
-                     <div class="breakfast sectionMenuRestaurant">
-                          <span class="sectionClearfix">
-                            <a class="sectionMenuTitle" href="#" >Crevettes</a>
-                            <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                            <span class="sectionMenuPrice">14 Euros</span>
-                          </span>
-                       
-                        </div>
-              
-                        <div class="breakfast sectionMenuRestaurant">
-                          <span class="sectionClearfix">
-                            <a class="sectionMenuTitle" href="#" >Demi Tourteau</a>
-                            <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                            <span class="sectionMenuPrice">8.50 Euros</span>
-                          </span>
-                       
-                        </div>
-                        
-                        <div class="breakfast sectionMenuRestaurant">
-                          <span class="sectionClearfix">
-                            <a class="sectionMenuTitle" href="#" >Tourteau</a>
-                            <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                            <span class="sectionMenuPrice">17 Euros</span>
-                          </span>
-                       
-                        </div>
-                     <div class="lunch sectionMenuRestaurant">
-                          <span class="sectionClearfix">
-                            <a class="sectionMenuTitle" href="#" >Huîtres</a>
-                            <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                            <span class="sectionMenuPrice">24 Euros</span>
-                          </span>
-                        </div>
-              
-                        <div class="lunch sectionMenuRestaurant">
-                          <span class="sectionClearfix">
-                            <a class="sectionMenuTitle" href="#" >Plateau de fruits de mer</a>
-                            <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                            <span class="sectionMenuPrice">35 Euros</span>
-                          </span>
-                       
-                        </div>
-                    </div>
-               <!------------------------------------------------------------------------- Desserts --------------------------------------------------------------------------->
-               <div id="dessert" style="display:none;">
-                <div class="breakfast sectionMenuRestaurant">
-                  <span class="sectionClearfix">
-                    <a class="sectionMenuTitle" href="#" data-meal-img=".jpg">Mousse Chocolat</a>
-                    <span style="left:166px;right:44px;" class="sectionMenuLine"></span>
-                    <span class="sectionMenuPrice">6 Euros</span>
-                  </span>
-               
-                </div>
-                 <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Tarte Citron</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">6.50 Euros</span>
-                      </span>
-                    </div>
-          
-                    <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Crème Brulée</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">6 Euros</span>
-                      </span>
-                   
-                    </div>
-                    
-                    <div class="breakfast sectionMenuRestaurant">
-                      <span class="sectionClearfix">
-                        <a class="sectionMenuTitle" href="#" >Café Gourmand</a>
-                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
-                        <span class="sectionMenuPrice">8 Euros</span>
-                      </span>
-                    </div>
-                </div>
-          
-          
-          
                 
+                <div id="entree" style="display:inline-block;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="breakfast sectionMenuRestaurant">
+                                <span class="sectionClearfix">
+                                    <a class="sectionMenuTitle" href="#" data-meal-img=".jpg">Burrata</a>
+                                    <span style="left:166px;right:44px;" class="sectionMenuLine"></span>
+                                    <span class="sectionMenuPrice">12 Euros</span>
+                                </span>
+                            </div>
+                            <div class="breakfast sectionMenuRestaurant">
+                                <span class="sectionClearfix">
+                                    <a class="sectionMenuTitle" href="#" >Assiette mer</a>
+                                    <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                    <span class="sectionMenuPrice">14 Euros</span>
+                                </span>
+                            </div>
+                
+                            <div class="breakfast sectionMenuRestaurant">
+                                <span class="sectionClearfix">
+                                    <a class="sectionMenuTitle" href="#" >Ceviche</a>
+                                    <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                    <span class="sectionMenuPrice">12 Euros</span>
+                                </span>
+                            </div>
+                            
+                            <div class="breakfast sectionMenuRestaurant">
+                                <span class="sectionClearfix">
+                                    <a class="sectionMenuTitle" href="#" >Tarte camemb.</a>
+                                    <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                    <span class="sectionMenuPrice">9.50 Euros</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                            <img src="assets/image/assietteMer.jpg" class="img-fluid d-inline-block w-25 h-100">
+                            <img src="assets/image/salade-de-chevre-vegetarienne.jpg" class="img-fluid d-inline-block h-100 w-25">
+                            <img src="assets/image/saladeVege-poulpeHoumous.jpg" class="img-fluid d-inline-block h-100 w-25">
+                        </div>
+                    </div>
                 </div>
-              </div>
-          
-          </section>
+                 <!------------------------------------------------------------------------- Plats --------------------------------------------------------------------------->
+                    <div id="plates" style="display:none;">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Crevettes</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">14 Euros</span>
+                                    </span>
+                                </div>
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Demi Tourteau</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">8.50 Euros</span>
+                                    </span>
+                                </div>
+                                <div class="lunch sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Huîtres</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">24 Euros</span>
+                                    </span>
+                                </div>
+                                <div class="lunch sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Plateau</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">35 Euros</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                                <img src="assets/image/plateauFruitMer.jpg" class="img-fluid d-inline-block h-100 w-25">
+                                <img src="assets/image/papillote.jpg" class="img-fluid d-inline-block h-100 w-25">
+                                <img src="assets/image/poupleRoti.jpg" class="img-fluid d-inline-block h-100 w-25">
+                            </div>
+                        </div>
+                    </div>
+                <!------------------------------------------------------------------------- Desserts --------------------------------------------------------------------------->
+                    <div id="dessert" style="display:none;">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" data-meal-img=".jpg">Mousse Chocolat</a>
+                                        <span style="left:166px;right:44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">6 Euros</span>
+                                    </span>
+                                </div>
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Tarte Citron</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">6.50 Euros</span>
+                                    </span>
+                                </div>
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Crème Brulée</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">6 Euros</span>
+                                    </span> 
+                                </div>
+                                <div class="breakfast sectionMenuRestaurant">
+                                    <span class="sectionClearfix">
+                                        <a class="sectionMenuTitle" href="#" >Café Gourmand</a>
+                                        <span style="left: 166px; right: 44px;" class="sectionMenuLine"></span>
+                                        <span class="sectionMenuPrice">8 Euros</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                                <img src="assets/image/dessert.jpg" class="img-fluid d-inline-block w-25 h-100">
+                                <img src="assets/image/colossal-cafe-gourmand.jpg" class="img-fluid d-inline-block h-100 w-25">
+                                <img src="assets/image/tarte.jpg" class="img-fluid d-inline-block h-100 w-25">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
 
 
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
