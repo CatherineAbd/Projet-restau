@@ -121,11 +121,10 @@ h7 {
 
 .sectionMenuBtn{
     color:#FFB03B;
-    font-weight: bold;
     font-family: 'Arvo', serif;
 }
 
-.sectionHeaderH {
+.sectionMenuHeaderH {
     font-size: 35px;
     color: #FFB03B;
     font-size: 46px;
@@ -139,12 +138,12 @@ h7 {
 }
 
 
-.sectionPadding{
-    padding: 60px 0px;
+.sectionMenuPadding{
+padding: 60px 0px;
 }
 
-.sectionMargB{
-    margin-bottom:35px;
+.sectionMenuMargB{
+margin-bottom:35px;
 }
 
 .sectionMenuRestaurant
@@ -157,11 +156,11 @@ h7 {
 
 .sectionMenuRestaurant .sectionMenuTitle
 {
-    float:left;
-    font-family: 'Arvo', serif;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    color:#FFB03B;
+float:left;
+font-family: 'Arvo', serif;
+text-transform:uppercase;
+letter-spacing:1px;
+color:white;
 }
 
 .sectionMenuRestaurant .sectionMenuLine
@@ -200,23 +199,12 @@ h7 {
     color:#fff;
     border:1px solid #FFB03B;
 }
-#menu-filters ul li 
+
+.sectionListTitle 
 {
-    display:inline-block;
-    color:#fff;
-    text-transform:capitalize;
-    letter-spacing:1px;
-    margin-bottom:40px;
-}
-#menu-filters .sectionListTitle 
-{
-    padding:10px 20px;
-    font-size:14px;
-    color:#565656;
-    border-radius:0px;
-    border:1px solid #BBBBBB;
-    text-decoration:none;
-    cursor:pointer;
+padding:5px 10px;
+
+
 }
 .sectionMenuRestaurant 
 {
