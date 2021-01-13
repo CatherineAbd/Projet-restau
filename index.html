@@ -322,7 +322,7 @@
 
 
         <section class="container-fluid sectionInfo" id="SectionContact">
-            <div class="row">
+            <div class="row" >
                 <div class="SectionInfoLeft col-md-6">
                     <div class="row pt-4">
                         <div class="col-md-12 text-center">
@@ -344,7 +344,7 @@
 <!--------------------------------------------------------------------------------------------------------------------------------------------->
 
                 <div id="info" class="SectionInfoRight col-md-6">
-                    <div class="row pt-4">
+                    <div class="align-items-center row pt-4">
                         <div class="col-md-12 text-center">
                             <h5 class="SectionInfoH5">INFORMATION</h5>
                         </div>
@@ -354,7 +354,8 @@
                             <div class="text-center">
                                 <h5>La Voile Bleue</h5>
                                 <p>Bar, Brasserie cuisine française, européennes, Fruits de mer & Poisson.</p>
-                                <h6>Fonctionnalités : </h6>
+                                <h6 class="d-none d-sm-inline">Fonctionnalités </h6>
+                                <h6 class="d-sm-inline d-sm-none">Fonction. </h6>
                                 <p>Réservations, Accès personnes handicapées, Terrasse, Places assises, Service de table.</p>
                             </div>
                         </div>
@@ -382,29 +383,50 @@
                         <div class="col-md-12 px-5 text-start fw-bold">
                             <form class="form px-5" name="reservationForm">
                                 <div class="row">
-                                    <label>Votre nom (obligatoire)</label>
-                                    <input type="text" id="name" class=" sectionInfoInput form-control" required/>
-                                    <span style="color: darkred;" id="errorName"></span>
-                                </div>
-                                <div class="row">
-                                    <label>Votre e-mail (obligatoire)</label>
-                                    <input type="email" id="mail" class="sectionInfoInput form-control" required/>
-                                    <span style="color: darkred;" id="errorMail"> </span>
+                                    <div class="col-md-12">
+                                        <label>Votre nom (obligatoire)</label>
+                                        <input type="text" id="name" class="sectionInfoInput form-control" required/>
+                                        <span style="color: darkred;" id="errorName"></span>
+                                    </div>
+                                    
                                 </div>
                                 
-                                <label>Sujet (obligatoire)</label>
-                                <input type="text" id="subject" class=" sectionInfoInput form-control" required/>
-                                <span style="color: darkred;" id="errorSubject"> </span>
-                                <label>Votre message</label>
-                                <textarea class="sectionInfoMessageBox" id="msg" placeholder="Message" required></textarea>
-                                <span style="color: darkred;" id="errorMessage"> </span>
-                                <button type="button" class="SectionInfoBTN btn"
-                                onclick="checkEmail();emptyMessage();checkName();checkSubject()">Demande d'informations</button>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Votre e-mail (obligatoire)</label>
+                                        <input type="email" id="mail" class="sectionInfoInput form-control" required/>
+                                        <span style="color: darkred;" id="errorMail"> </span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Sujet (obligatoire)</label>
+                                        <input type="text" id="subject" class="sectionInfoInput form-control" required/>
+                                        <span style="color: darkred;" id="errorSubject"> </span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Votre message</label>
+                                        <textarea class="sectionInfoMessageBox" id="msg" placeholder="Message" required></textarea>
+                                        <span style="color: darkred;" id="errorMessage"> </span>
+                                    </div>
+                                    
+                                </div>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-12 text-center">
+                                        <button type="button" class="SectionInfoBTN btn" onclick="checkEmail();emptyMessage();checkName();checkSubject()">Envoyer</button>
+                                    </div>
+                                    
+                                </div>
+                                
                             </form>
                         </div>
                     </div>
 
-                    <div class="row pt-5 pb-3 text-center">
+                    <div class="row pb-5 text-center">
                         <div class="col-md-12">
                             <button class="SectionInfoBTN btn" onclick="showInfo();">Voir Information</button>
                         </div>
@@ -534,7 +556,7 @@
             
             <ul>
                 Responsable de la rédaction : <b>Cat cat</b><br /><br />
-                <li>Développement, hébergement :</li>
+                <li>Développement, hébergement : <a href="https://github.com/CatherineAbd/Projet-restau" target="_blank">github.com</a></li>
                 <li>Cat development – www.Déjà vu, I've just been in this place before.com</li>
                 <li>99 rue super Cat - 76600 Le havre</li>
                 <li>Tél : 06 06 06 06 06</li>
