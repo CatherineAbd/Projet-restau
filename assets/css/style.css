@@ -121,7 +121,6 @@ h6 {
 
 .SectionScheduleBTN a{
     color: black ;
-    display: inline-block;
 }
 
 .SectionScheduleBTN a:hover {
@@ -172,9 +171,15 @@ h6 {
 }
 
 .SectionInfoBTN {
-    border: 3px solid #007C88;
-    background: white;
-    color: red;
+    border: 2px solid black;
+    border-radius: 25px;
+    background: white !important;
+}
+
+.SectionInfoBTN:hover {
+    transition: 0.3s;
+    background: #151B27 !important;
+    color: white;
 }
 
 .SectionInformationMap {
