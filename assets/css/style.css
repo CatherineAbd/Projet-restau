@@ -278,17 +278,14 @@ padding:5px 10px;
 
 
 .sectionInfoInput {
-  width: 100%;
   padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #E7DCB6;
+  border: 3px solid #003d42;
+  background: white;
  
 }
 
 .sectionInfoInput:focus {
-  background-color: #ddd;
+  background-color: rgb(247, 247, 247);
   outline: none;
 }
 
@@ -297,8 +294,8 @@ padding:5px 10px;
     padding: 15px;
     margin: 5px 0 22px 0;
     display: inline-block;
-    border: none;
-    background: #E7DCB6;
+    border: 3px solid #003d42;
+    background: rgb(247, 247, 247);
 }
 
 .sectionInfoMessageBox:focus {
