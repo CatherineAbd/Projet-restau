@@ -386,21 +386,26 @@
 
                     <div class="row p-5">
                         <div class="col-md-12 px-5 text-start fw-bold">
-                            <form class="form px-5">
+                            <form class="form px-5" name="reservationForm">
                                 <div class="row">
                                     <label>Votre nom (obligatoire)</label>
-                                    <input type="text" class="form-control" />
+                                    <input type="text" id="name" class=" sectionInfoInput form-control" required/>
+                                    <span style="color: darkred;" id="errorName"></span>
                                 </div>
                                 <div class="row">
                                     <label>Votre e-mail (obligatoire)</label>
-                                    <input type="email" class="form-control" />
+                                    <input type="email" id="mail" class="sectionInfoInput form-control" required/>
+                                    <span style="color: darkred;" id="errorMail"> </span>
                                 </div>
                                 
-                                <label>Sujet</label>
-                                <input type="text" class="form-control" />
+                                <label>Sujet (obligatoire)</label>
+                                <input type="text" id="subject" class=" sectionInfoInput form-control" required/>
+                                <span style="color: darkred;" id="errorSubject"> </span>
                                 <label>Votre message</label>
-                                <textarea placeholder="j'aime les floats..."></textarea>
-                                <input type="button" value="Envoyer">
+                                <textarea class="sectionInfoMessageBox" id="msg" placeholder="Message" required></textarea>
+                                <span style="color: darkred;" id="errorMessage"> </span>
+                                <button type="button" class="SectionInfoBTN btn"
+                                onclick="checkEmail();emptyMessage();checkName();checkSubject()">Demande d'informations</button>
                             </form>
                         </div>
                     </div>

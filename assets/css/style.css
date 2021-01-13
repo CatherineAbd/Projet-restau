@@ -290,6 +290,39 @@ padding:5px 10px;
     position: absolute;
 }
 
+
+.sectionInfoInput {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #E7DCB6;
+  box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoInput:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoMessageBox{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #E7DCB6;
+    box-shadow: 10px 5px 5px black;
+}
+
+.sectionInfoMessageBox:focus {
+  background-color: #ddd;
+  outline: none;
+  box-shadow: 10px 5px 5px black;
+}
+
 /********************************   STYLE FOOTER  *************************************/
 .SectionFooterSpan {
     color: white;
