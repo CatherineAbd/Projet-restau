@@ -1,232 +1,348 @@
-
-.CarouselimgSize{
-    height: 400px;
-}
 /**************************************************************************************/
 /***************************   FEUILLE DE STYLE V0.1   ********************************/
 /**************************************************************************************/
 
 /***************************   IMPORTATION DES FONTS  *********************************/
 
-/* attendre le 12/01/2021 avant ajout de fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
-
-
+/* POUR UTILISER LA POLICE : font-family: 'Arvo', serif; */
 
 /*******************************   STYLE GLOBAL  **************************************/
-a
-{
-    
+
+* {
+    font-family: 'Arvo', serif;
 }
 
-ul
-{
-
+a {
+    text-decoration: none;
 }
 
-li
-{
-
+p {
+    font-size: 12px;
+    color: white;
 }
 
-p
-{
+h1 {
+    font-size: 40px;
+}
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 40px;
+}
+
+h6 {
+    font-size: 40px;
+}
+
+h7 {
+    font-size: 25px;
 }
 
 /**************************************************************************************/
 /*****************************   STYLE PAR SECTION  ***********************************/
 /**************************************************************************************/
-/*********************************   STYLE NAV  ***************************************/
-.SectionNavbar{
-    background-color: #006188;
+/*********************************   STYLE NAV*  ***************************************/
+.SectionNavbar {
+    border-bottom: 3px solid #006188;
 }
-.SectionNavbar a{
-    color: white;
+
+.SectionNavLink {
+    color: white !important;
+    border-bottom: 3px solid #212529;
 }
-.SectionNavbar a:hover{
-    color: #E7DCB6;
+
+.SectionNavLink:hover {
+    transition: 0.2s;
+    color: #006188 !important;
+    border-bottom: 3px solid #006188;
+    font-weight: bold;
 }
 
 /********************************   STYLE BANNER  *************************************/
-.SectionBannerIcon{
-    background-color:#006188;
+
+.SectionBannerIcon {
+    background-color: #006188;
 }
-.SectionBannerPresentation{
+
+.SectionBannerPresentation {
     color: #006188;
-    background-color: #E7DCB6 ;
+    background-color: #E7DCB6;
 }
-.SectionBannerPresentation h5, h6{
+
+.SectionBannerPresentation h5,
+h6 {
+
     color: #4d4d4d
+}
+
+#carouselVoile {
+    padding: 0px;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
 }
 
 /*******************************   STYLE HORAIRE  *************************************/
 
-.SectionSchedule{
-    background-color: #007DAE;
+.SectionScheduleH2 {
+    color: black;
 }
 
-.SectionScheduleTable{
-    color: #E7DDB6 !important;
+.SectionSchedule {
+    background-color: white;
 }
 
+.SectionScheduleBTN {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: white !important;
+}
+
+.SectionScheduleBTN:hover {
+    transition: 0.3s;
+    background: #151B27 !important;
+}
+
+.SectionScheduleBTN a{
+    color: black ;
+}
+
+.SectionScheduleBTN a:hover {
+    transition: 0.3s;
+    color: white !important;
+}
 
 /****************************   STYLE CARTE DU JOUR  **********************************/
 
-.SectionMenuImg{
-    height: 300px;
-    width: 300px;
+.sectionMenuBtn{
+    color:#FFB03B;
+    font-family: 'Arvo', serif;
 }
 
-.SectionMenuHead{
-    color:#4D4D4D;
+.sectionMenuHeaderH {
+    font-size: 35px;
+color: #FFB03B;
+font-size: 46px;
+font-family: 'Arvo', serif;
+font-weight: 300;
 }
+
+.sectionMenuList
+{
+list-style:none;
+}
+
+
+.sectionMenuPadding{
+padding: 60px 0px;
+}
+
+.sectionMenuMargB{
+margin-bottom:35px;
+}
+
+.sectionMenuRestaurant
+{
+width:50%;
+float:left;
+padding:15px;
+position:realtive;
+
+}
+
+.sectionMenuRestaurant .sectionMenuTitle
+{
+float:left;
+font-family: 'Arvo', serif;
+text-transform:uppercase;
+letter-spacing:1px;
+color:white;
+}
+
+.sectionMenuRestaurant .sectionMenuLine
+{
+position: absolute;
+bottom:6px;
+border-bottom:1px dotted rgba(0,0,0,.3);
+margin-left: .6em;
+margin-right: .6em;
+
+}
+
+.sectionMenuRestaurant .sectionMenuPrice{
+font-weight:600;
+position:absolute;
+right:0;
+top:0;
+color:white;
+
+}
+
+.sectionMenuRestaurant
+{
+display:block;
+float:left;
+color:#B1B1B1;
+font-family: 'Arvo', serif;
+font-size: 1.2rem;
+}
+
+.sectionMenuRestaurant .sectionClearfix{
+position:relative;
+display:block;
+}
+#menu-filters .sectionListTitle  #menu-filters .sectionListTitle 
+{
+background: #FFB03B;
+color:#fff;
+border:1px solid #FFB03B;
+}
+
+.sectionListTitle 
+{
+padding:5px 10px;
+
+
+}
+
+
+.sectionMenuRestaurant 
+{
+width: 100%;
+}
+.header-h
+{
+font-size: 35px;
+}
+.header-p 
+{
+font-size: 14px;
+}
+
+
+
+
+
 
 /*****************************   STYLE INFORMATION  ***********************************/
 
-/* Full-width input fields */
-.sectionInfoInput {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #E7DCB6;
-  box-shadow: 10px 5px 5px black;
-}
-/* Changing the style of input when focused */
-.sectionInfoInput:focus {
-  background-color: #ddd;
-  outline: none;
-  box-shadow: 10px 5px 5px black;
-}
-
-/*changing the style of textarea*/
-.sectionInfoMessageBox{
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #E7DCB6;
-    box-shadow: 10px 5px 5px black;
-}
-
-/*Changing the style of textarea when focused*/
-.sectionInfoMessageBox:focus {
-  background-color: #ddd;
-  outline: none;
-  box-shadow: 10px 5px 5px black;
-}
-
-/* Overwrite default styles of hr */
-.sectionInfoLine {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* reservation button style */
-.sectionInfoBtn {
-  background-color: #E7DCB6;
-  color:#007C88;
-  padding: 16px 20px;
-  margin: 8px 0;
-  border: 3px;
-  cursor: pointer;
-  opacity: 0.9;
-  border-radius:20px;
-}
-/*When button is hovered*/
-.sectionInfoBtn:hover {
-  opacity:1;
-}
-
-
-.sectionInfoForm {
- 
-  display:none;
-}
-
-/*Changing the style of info*/
-.sectionInfo{
-  background-color:#007C88;
-  text-align: center;
-  color:white;
-}
-
-/*Border in the middle of the two cols in grid*/
-.sectionInfoBorderRight {
-  border-right:1px solid white;
-}
-
-/*changing the color of the figcap*/
-.sectionInfoCap{
-  color:white;
-}
-
-/*Changing the style of the list*/
-.sectionInfoList{
-  background-color:#007C88;
-  color:white;
-}
-
-/*Change the style of info links*/
-.sectionInfoLink{
-  text-decoration: none;
-  color:white;
-}
-
-/*Change the style of the link when hovered*/
-.sectionInfoLink:hover{
-  text-decoration: none;
-  color:#E7DCB6;
-}
-
-/********************************   STYLE FOOTER  *************************************/
-.SectionFooterSpan
-{
+.SectionInfoH4 {
     color: white;
 }
 
-.SectionFooterSocial a{
-    text-align:center;
-      float: left;
-      width: 36px;
-      height: 36px;
-      border: 2px solid #006188;
-      border-radius: 100%;
-      margin-right: 7px; /*space between*/
-      display: flex;
-      align-items: flex-start;
-      transition: all 0.4s;
-      -webkit-transition: all 0.4s;
-  } 
-  .SectionFooterSocial a i{
-      font-size: 20px;
-      align-self:center;
-      color: #909090;
-      transition: all 0.4s;
-      -webkit-transition: all 0.4s;
-      margin: 0 auto;
-  }
-  .SectionFooterSocial a i::before{
-    display:inline-block;
-    text-decoration:none;
-  }
-  .SectionFooterSocial a:hover{
-    background: rgba(0,0,0,0.2);
-  }
-  .SectionFooterSocial a:hover i{
-    color:#fff;
-  }
+.SectionInfoH5 {
+    color: white;
+}
 
-  .SectionFooter
-{
+.SectionInfoH6 {
+    color: white;
+}
+
+.SectionInfoLeft {
+    background-color: #007C88;
+}
+
+.SectionInfoRight {
+    background-color: #0090C8;
+}
+
+.SectionInfoRightN {
+    background-color: #0090C8;
+    display: none;
+}
+
+.SectionInfoBTN {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: white !important;
+}
+
+.SectionInfoBTN:hover {
+    transition: 0.3s;
+    background: #151B27 !important;
+    color: white;
+}
+
+.SectionInformationMap {
+    border: 3px solid #003d42;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.SectionInformationMap iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/********************************   STYLE FOOTER  *************************************/
+.SectionFooterSpan {
+    color: white;
+}
+
+.SectionFooterSocial a {
+    text-align: center;
+    float: left;
+    width: 36px;
+    height: 36px;
+    border: 3px solid #003d42;
+    background: white;
+    border-radius: 100%;
+    margin-right: 7px;
+    /*space between*/
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.SectionFooterSocial a i {
+    font-size: 20px;
+    align-self: center;
+    color: #007C88;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    margin: 0 auto;
+}
+
+.SectionFooterSocial a i::before {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.SectionFooterSocial a:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.SectionFooterSocial a:hover i {
+    color: #fff;
+}
+
+.SectionFooter {
     background-color: #1C2431 !important;
 }
 
-.SectionFooterH5
-{
+.SectionFooterH7 {
     display: inline-block;
     border-bottom: 3px solid#006188;
     border-bottom-width: thick;
@@ -234,39 +350,36 @@ p
     color: white;
 }
 
-.sectionFooterCol ul
-{
-    padding-left: 50%;
-    text-align: left !important;
-}
-
-.SectionFooterCol ul li .a
-{
+.SectionFooterCol ul li .a {
+    font-size: 12px;
     color: white !important;
     text-decoration: none;
 }
 
-.SectionFooterCol ul li .a:hover
-{
+.SectionFooterCol ul li .a:hover {
     transition: 0.1s;
     font-weight: bold;
     color: #006188 !important;
     text-decoration: underline;
 }
 
-.SectionFooterSocialPart
-{
+.SectionFooterSocialPart {
     background-color: #006188;
 }
 
-.SectionFooterCredit
-{
+.SectionFooterCredit {
     background-color: #151B27;
 }
 
-.SectionFooterP
-{
+.SectionFooterP {
     display: inline;
-    color: #006188;
 }
 
+/********************************   STYLE PARALLAX  *************************************/
+.parallax {
+    background: url('../image/parallax.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
